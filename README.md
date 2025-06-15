@@ -57,7 +57,7 @@ Chasm Modding Toolkit Package is a comprehensive Windows package for customizing
 - [stb][6]
 - [autoit][7]
 
-[1]: https://www.moddb.com/games/chasm-the-rift/downloads/chasm-modding-toolkit-package)
+[1]: https://www.moddb.com/games/chasm-the-rift/downloads/chasm-modding-toolkit-package
 [2]: https://discord.gg/f85Cz4FaXP
 [3]: https://github.com/jopadan/AwesomeChasm
 [4]: https://github.com/freeglut/freeglut
