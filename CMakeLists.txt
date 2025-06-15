@@ -36,14 +36,15 @@ add_link_options(-Wl,--gc-sections)
 add_link_options(-Wl,--print-gc-sections)
 add_link_options(-Wl,-s)
 
+find_package(OpenGL)
 find_package(GLEW)
 find_package(freeglut)
 
-add_executable( carviewer src/carviewer/carviewer.c )
+add_executable( carviewer src/carviewer/carviewer.c src/carviewer/chasmpalette.o)
 target_include_directories( carviewer PUBLIC
         PUBLIC_HEADER $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
 )
-target_link_libraries( carviewer PUBLIC m freeglut glew)
+target_link_libraries( carviewer PUBLIC m OpenGL::GL OpenGL::GLU GLEW glut)
 
 install(TARGETS carviewer DESTINATION ${CMAKE_INSTALL_BINDIR} COMPONENT EXECUTABLES)

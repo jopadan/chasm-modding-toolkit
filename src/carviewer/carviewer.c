@@ -362,13 +362,13 @@ void special(int key,int x,int y){
       case GLUT_KEY_RIGHT:     translateX+=0.1f; break;
       case GLUT_KEY_UP:        translateY+=0.1f; break;
       case GLUT_KEY_DOWN:      translateY-=0.1f; break;
-      case GLUT_KEY_F5:  if(wavBuffers[0]) PlaySound((LPCSTR)wavBuffers[0], NULL, SND_MEMORY|SND_ASYNC); break;
-      case GLUT_KEY_F6:  if(wavBuffers[1]) PlaySound((LPCSTR)wavBuffers[1], NULL, SND_MEMORY|SND_ASYNC); break;
-      case GLUT_KEY_F7:  if(wavBuffers[2]) PlaySound((LPCSTR)wavBuffers[2], NULL, SND_MEMORY|SND_ASYNC); break;
-      case GLUT_KEY_F8:  if(wavBuffers[3]) PlaySound((LPCSTR)wavBuffers[3], NULL, SND_MEMORY|SND_ASYNC); break;
-      case GLUT_KEY_F9:  if(wavBuffers[4]) PlaySound((LPCSTR)wavBuffers[4], NULL, SND_MEMORY|SND_ASYNC); break;
-      case GLUT_KEY_F10: if(wavBuffers[5]) PlaySound((LPCSTR)wavBuffers[5], NULL, SND_MEMORY|SND_ASYNC); break;
-      case GLUT_KEY_F11: if(wavBuffers[6]) PlaySound((LPCSTR)wavBuffers[6], NULL, SND_MEMORY|SND_ASYNC); break;
+//      case GLUT_KEY_F5:  if(wavBuffers[0]) PlaySound((LPCSTR)wavBuffers[0], NULL, SND_MEMORY|SND_ASYNC); break;
+//      case GLUT_KEY_F6:  if(wavBuffers[1]) PlaySound((LPCSTR)wavBuffers[1], NULL, SND_MEMORY|SND_ASYNC); break;
+//      case GLUT_KEY_F7:  if(wavBuffers[2]) PlaySound((LPCSTR)wavBuffers[2], NULL, SND_MEMORY|SND_ASYNC); break;
+//      case GLUT_KEY_F8:  if(wavBuffers[3]) PlaySound((LPCSTR)wavBuffers[3], NULL, SND_MEMORY|SND_ASYNC); break;
+//      case GLUT_KEY_F9:  if(wavBuffers[4]) PlaySound((LPCSTR)wavBuffers[4], NULL, SND_MEMORY|SND_ASYNC); break;
+//      case GLUT_KEY_F10: if(wavBuffers[5]) PlaySound((LPCSTR)wavBuffers[5], NULL, SND_MEMORY|SND_ASYNC); break;
+//      case GLUT_KEY_F11: if(wavBuffers[6]) PlaySound((LPCSTR)wavBuffers[6], NULL, SND_MEMORY|SND_ASYNC); break;
     }
     bgColor[0]=paletteRGB[currentBgPaletteIndex][0]/255.0f;
     bgColor[1]=paletteRGB[currentBgPaletteIndex][1]/255.0f;
