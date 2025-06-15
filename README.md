@@ -34,7 +34,7 @@
 
 ## Usage
 
-> [!TIPS]
+> [!TIP]
 > - The tool will automatically find the closest palette match for PNG colors
 > - #040404 in palette is used for transparent pixels (some models have a bug while displaying in the viewer)
 > - Keep original full-color textures for SNEG sourceport
