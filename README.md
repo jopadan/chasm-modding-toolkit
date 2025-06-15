@@ -5,13 +5,11 @@ version 2.8.4 2025-June-08
 --------------------------------------------------------------------------------
 Dependencies
 --------------------------------------------------------------------------------
-Chasm Modding Toolkit is using:
 - [freeglut](https://github.com/freeglut/freeglut)
 - [GLEW](https://glew.sourceforge.net)
 - [stb](https://github.com/nothings/stb)
 - [autoit](https://www.autoitscript.com/site/)
 --------------------------------------------------------------------------------
-FILES INCLUDED:
 23. Source code for all tools
 
 24. chasmpalette.act - The Chasm palette in photoshop ACT format
@@ -23,7 +21,8 @@ FILES INCLUDED:
 29. File type icons + App icons
 30. README.md - This file
 --------------------------------------------------------------------------------
-**Usage**
+Usage
+--------------------------------------------------------------------------------
 TIPS:
 - The tool will automatically find the closest palette match for PNG colors
 - #040404 in palette is used for transparent pixels (some models have a bug while displaying in the viewer)
