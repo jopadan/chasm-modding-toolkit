@@ -7,104 +7,21 @@ IMPORTANT: Always run this toolkit and keep files in its root folder to avoid GU
 --------------------------------------------------------------------------------
 Official discord server: https://discord.gg/yNuHEbEg
 --------------------------------------------------------------------------------
-NEW IN VERSION 1.1 Package:
-- Direct PNG file support (8bit indexed and full color with transparency, no need for RAW file conversion)
-- ACT palette file support (Photoshop format)
-- Better transparency handling
-- Improved error messages
+**Dependencies**
+Chasm Modding Toolkit is using:
+FREEGLUT: Freeglut, the Free OpenGL Utility Toolkit
+https://github.com/freeglut/freeglut
 
-NEW IN VERSION 2.0 Package:
-- Added chasm .car carviewer
-- Updated GUI interface
-- Updated source code
+GLEW: OpenGL Extension Wrangler Library
+https://glew.sourceforge.net
 
-NEW IN VERSION 2.1 Package:
-- Fixed bug with GUI not loading CLI executables
+STB: single-file public domain (or MIT licensed) libraries for C/C++
+https://github.com/nothings/stb
 
-NEW IN VERSION 2.2 Package:
-- Added animation preview support in carviewer.exe
-- Added interpolation to animation
-
-NEW IN VERSION 2.3 Package:
-- Fixed Overwrite bug where GUI would not replace existing file when confirmed
-
-NEW IN VERSION 2.4 Package:
-- Added car2png.exe - Extracts texture from CAR file and saves as PNG
-- Added caraudio.exe - Extracts audio in RAW or WAV file and saves as multiple files
-- Updated Carreplace-GUI.exe wit texture extract functions
-- Added new GUI TOOL - CAR AUDIO.exe
-- Updated carviewer.exe to play sounds
-
-NEW IN VERSION 2.5 Package:
-- Updated Carviewer 1.9.3
-- New OBJviewer.exe and OBJtool.exe for OBJ sprite editing
-
-NEW IN VERSION 2.6 Package:
-- Added CELViewer.exe and CELtool.exe for CHASM/Autodesk CEL editing
-- Added new GUI TOOL - CEL TOOLKIT.exe
-
-NEW IN VERSION 2.7 Package:
-- Added 3oviewer.exe - Viewer for Chasm 3o+ani files and animations 
-- Added SPRviewer.exe - SPR Viewer with simple import/export function built in    
-
-NEW IN VERSION 2.8 Package:
-- Added Floortool.exe (FLOOR.XX viewer, and editor)
-- Added Floorflag.exe (FLOOR.XX flags viewer, and editor)
-- Added File type icons 
-
-NEW IN VERSION 2.8.1 Package:
-- Added pal2all.exe - Tool for converting Chasm2.pal to multiple palette formats
-- Added rgbtool.exe - Tool reads a 256×N .RGB blend table and a 768-byte .PAL file, then for each of the N rows generates multiple palette exports
-- Added mpv.exe - Multi Palette viewer 
-- Added cubegen.exe - 3DLUT .cube generator
-- Updated source code and added app icons
-
-NEW IN VERSION 2.8.2 Package:
-- Added ojmv.exe (OBJ JSON MODEL VIEWER) - Enhanced OBJ + JSON Model Viewer
-
-NEW IN VERSION 2.8.3 Package:
-- Added hdri2skybox.exe - HDRI (png/jpg) to Cubemap Skybox for Chasm Remastered
-- Added HDRI (png/jpg) sample files
-- Added Chasm Skybox and 360 panorama Sky Viewer
-
-NEW IN VERSION 2.8.4 Package:
-- Added paledit.exe - Palette Editor for Chasm2.pal palette file
-- removed icons and png duplicates from source folder
+AUTOIT: AutoIt3 BASIC-like scripting language designed for automating the Windows GUI and general scripting.
+https://www.autoitscript.com/site/
 --------------------------------------------------------------------------------
 FILES INCLUDED:
-
-GUI TOOLS:
-1. GUI TOOL - CAR TEXTURE.exe version 1.4 - GUI wrapper for carreplace.exe and carviewer.exe 
-2. GUI TOOL - CAR TEXTURE.exe version 1.0 - GUI wrapper for caraudio-io.exe
-3. GUI TOOL - OBJ TOOLKIT.exe version 1.0 - GUI wrapper for objviewer.exe and objtool.exe
-
-CLI TOOLS:
-4. carreplace.exe - version 1.1.0 CLI executable for chaning CAR textures
-5. carviewer.exe version 1.9.3 (usage through GUI or manually: carviewer.exe <model.car>)
-6. car2png.exe version 1.0 (usage through GUI or manually: car2png.exe <model.car>)
-7. caraudio-io.exe version 1.0 - tool for extracting and replacing CAR audio files
-8. objviewer.exe version 1.0 - tool for vieweing OBJ sprite files (located in BMP folder DOS)
-9. objtool.exe version 1.0 - tool for manipulation and creation of new OBJ sprite files
-10. celtool.exe version 1.4 - tool for manipulation and creation of new CEL texture files
-11. celviewer.exe version 1.0.0 - CHASM/Autodesk CEL
-12. 3oviewer.exe version 1.0.0 - 3o/ani model/animation viewer
-13. sprviewer.exe version 1.0.0 - spr file viewer + IO functions built in (For transparency, use #040404)
-13. floortool.exe version 1.0.2 - FLOOR.XX viewer, and editor
-14. floorflag.exe version 1.0.2 - FLOOR.XX flags viewer, and editor
-15. pal2all.exe verison 1.0.1 - Tool for converting Chasm2.pal to multiple palette formats
-16. rgbtool.exe version 1.0.0 - Tool reads a 256×N .RGB blend table and a 768-byte .PAL file, then for each of the N rows generates multiple palette exports
-17. mpv.exe version 1.0.3 - Multi Palette viewer 
-18. cubegen.exe version 1.0.0 - 3DLUT .cube generator for color grading for Photoshop
-19. ojmv.exe version 1.0.0 -(OBJ JSON MODEL VIEWER) Enhanced OBJ + JSON Model Viewer,  
-    -Used to preview animated JSON and static OBJ MODEL files
-    -Animated JSON will be used for ANI creation in another tool
-    -This is not used for Chasm sprite OBJ files!
-    -Check test/example files 
-20. hdri2skybox.exe version 1.0.0 - HDRI (png/jpg) to Cubemap Skybox for Chasm Remastered
-21. skyviewer.exe version 1.0.1 - Chasm Skybox and 360 panorama Sky Viewer
-22. paledit.exe version 1.0.1 - Palette Editor for CHASM2.pal palette file
-
-OTHER:
 23. Source code for all tools
 
 24. chasmpalette.act - The Chasm palette in photoshop ACT format
@@ -114,9 +31,9 @@ OTHER:
 27. New skin files by SMR9000 and Railed Robin
 28. Misc example files
 29. File type icons + App icons
-30. Readme.txt - This file
-
+30. README.md - This file
 --------------------------------------------------------------------------------
+**Usage**
 TIPS:
 - The tool will automatically find the closest palette match for PNG colors
 - #040404 in palette is used for transparent pixels (some models have a bug while displaying in the viewer)
@@ -255,46 +172,4 @@ Features:
 
 - HDRI Source Recommendation:
 - Use https://www.manyworlds.run to generate HDRI images suitable for skybox conversion.
---------------------------------------------------------------------------------
-
-The MIT License (Non-Commercial Variant)
-
-Copyright (c) 2025 SMR9000
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, and sublicense copies of
-the Software, **except** that:
-
-  • The rights granted herein **do not include** the right to use the Software
-    for commercial purposes, to charge for copies of the Software or any
-    derivative works, or to otherwise earn money from the Software in any way.
-
-The above copyright notice and this permission notice, **including this
-non-commercial restriction**, shall be included in all copies or substantial
-portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
---------------------------------------------------------------------------------
-Chasm Modding Toolkit is using:
-FREEGLUT: Freeglut, the Free OpenGL Utility Toolkit
-https://github.com/freeglut/freeglut
-
-GLEW: OpenGL Extension Wrangler Library
-https://glew.sourceforge.net
-
-STB: single-file public domain (or MIT licensed) libraries for C/C++
-https://github.com/nothings/stb
-
-AUTOIT: AutoIt3 BASIC-like scripting language designed for automating the Windows GUI and general scripting.
-https://www.autoitscript.com/site/
 --------------------------------------------------------------------------------

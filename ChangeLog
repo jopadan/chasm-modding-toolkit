@@ -1,0 +1,63 @@
+NEW IN VERSION 1.1 Package:
+- Direct PNG file support (8bit indexed and full color with transparency, no need for RAW file conversion)
+- ACT palette file support (Photoshop format)
+- Better transparency handling
+- Improved error messages
+
+NEW IN VERSION 2.0 Package:
+- Added chasm .car carviewer
+- Updated GUI interface
+- Updated source code
+
+NEW IN VERSION 2.1 Package:
+- Fixed bug with GUI not loading CLI executables
+
+NEW IN VERSION 2.2 Package:
+- Added animation preview support in carviewer.exe
+- Added interpolation to animation
+
+NEW IN VERSION 2.3 Package:
+- Fixed Overwrite bug where GUI would not replace existing file when confirmed
+
+NEW IN VERSION 2.4 Package:
+- Added car2png.exe - Extracts texture from CAR file and saves as PNG
+- Added caraudio.exe - Extracts audio in RAW or WAV file and saves as multiple files
+- Updated Carreplace-GUI.exe wit texture extract functions
+- Added new GUI TOOL - CAR AUDIO.exe
+- Updated carviewer.exe to play sounds
+
+NEW IN VERSION 2.5 Package:
+- Updated Carviewer 1.9.3
+- New OBJviewer.exe and OBJtool.exe for OBJ sprite editing
+
+NEW IN VERSION 2.6 Package:
+- Added CELViewer.exe and CELtool.exe for CHASM/Autodesk CEL editing
+- Added new GUI TOOL - CEL TOOLKIT.exe
+
+NEW IN VERSION 2.7 Package:
+- Added 3oviewer.exe - Viewer for Chasm 3o+ani files and animations 
+- Added SPRviewer.exe - SPR Viewer with simple import/export function built in    
+
+NEW IN VERSION 2.8 Package:
+- Added Floortool.exe (FLOOR.XX viewer, and editor)
+- Added Floorflag.exe (FLOOR.XX flags viewer, and editor)
+- Added File type icons 
+
+NEW IN VERSION 2.8.1 Package:
+- Added pal2all.exe - Tool for converting Chasm2.pal to multiple palette formats
+- Added rgbtool.exe - Tool reads a 256×N .RGB blend table and a 768-byte .PAL file, then for each of the N rows generates multiple palette exports
+- Added mpv.exe - Multi Palette viewer 
+- Added cubegen.exe - 3DLUT .cube generator
+- Updated source code and added app icons
+
+NEW IN VERSION 2.8.2 Package:
+- Added ojmv.exe (OBJ JSON MODEL VIEWER) - Enhanced OBJ + JSON Model Viewer
+
+NEW IN VERSION 2.8.3 Package:
+- Added hdri2skybox.exe - HDRI (png/jpg) to Cubemap Skybox for Chasm Remastered
+- Added HDRI (png/jpg) sample files
+- Added Chasm Skybox and 360 panorama Sky Viewer
+
+NEW IN VERSION 2.8.4 Package:
+- Added paledit.exe - Palette Editor for Chasm2.pal palette file
+- removed icons and png duplicates from source folder
