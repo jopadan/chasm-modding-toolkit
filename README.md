@@ -49,19 +49,19 @@ Chasm Modding Toolkit Package is a comprehensive Windows package for customizing
 
 ## Links
 
-- [1]
-- [2]
-- [3]
-- [4]
-- [5]
-- [6]
-- [7]
+- [Chasm Modding Toolkit Package file - Chasm: The Rift - ModDB][1]
+- [The Shadow Zone Discord Server][2]
+- [AwesomeChasm][3]
+- [freeglut][4]
+- [GLEW][5]
+- [stb][6]
+- [autoit][7]
 
-[1][Chasm Modding Toolkit Package file - Chasm: The Rift - ModDB]: https://www.moddb.com/games/chasm-the-rift/downloads/chasm-modding-toolkit-package
-[2][The Shadow Zone Chasm Modding Toolkit Packages]: discord.gg/f85Cz4FaXP
-[3][AwesomeChasm]: https://github.com/jopadan/AwesomeChasm
-[4][freeglut]: https://github.com/freeglut/freeglut
-[5][GLEW]: https://glew.sourceforge.net
-[6][stb]: https://github.com/nothings/stb
-[7][autoit]: https://www.autoitscript.com/site/
+[1]: https://www.moddb.com/games/chasm-the-rift/downloads/chasm-modding-toolkit-package)
+[2]: https://discord.gg/f85Cz4FaXP
+[3]: https://github.com/jopadan/AwesomeChasm
+[4]: https://github.com/freeglut/freeglut
+[5]: https://glew.sourceforge.net
+[6]: https://github.com/nothings/stb
+[7]: https://www.autoitscript.com/site/
 
