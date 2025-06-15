@@ -1,0 +1,18 @@
+{
+  "model_name": "bounce",
+  "files": [
+    { "type": "model", "path": "bounce/Bounce_0000.obj" },
+    { "type": "model", "path": "bounce/Bounce_0002.obj" },
+    { "type": "model", "path": "bounce/Bounce_0004.obj" },
+    { "type": "model", "path": "bounce/Bounce_0006.obj" },
+    { "type": "model", "path": "bounce/Bounce_0008.obj" },
+    { "type": "model", "path": "bounce/Bounce_0010.obj" },
+    { "type": "model", "path": "bounce/Bounce_0012.obj" },
+    { "type": "model", "path": "bounce/Bounce_0014.obj" },
+    { "type": "model", "path": "bounce/Bounce_0016.obj" },
+    { "type": "model", "path": "bounce/Bounce_0018.obj" },
+    { "type": "model", "path": "bounce/Bounce_0020.obj" },
+    { "type": "model", "path": "bounce/Bounce_0022.obj" },
+    { "type": "texture", "path": "bounce/bounce.png" }
+  ]
+}

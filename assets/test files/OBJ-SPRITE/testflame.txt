@@ -1,0 +1,10 @@
+testflame\testflame_0.png,32,48,16
+testflame\testflame_1.png,32,48,16
+testflame\testflame_2.png,32,48,16
+testflame\testflame_3.png,32,48,16
+testflame\testflame_4.png,32,48,16
+testflame\testflame_5.png,32,48,16
+testflame\testflame_6.png,32,48,16
+testflame\testflame_7.png,32,48,16
+testflame\testflame_8.png,32,48,16
+testflame\testflame_9.png,32,48,16
