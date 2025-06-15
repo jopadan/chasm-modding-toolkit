@@ -3,23 +3,13 @@ Chasm Modding Toolkit by SMR9000
 --------------------------------------------------------------------------------
 version 2.8.4 2025-June-08
 --------------------------------------------------------------------------------
-IMPORTANT: Always run this toolkit and keep files in its root folder to avoid GUI errors.
+Dependencies
 --------------------------------------------------------------------------------
-Official discord server: https://discord.gg/yNuHEbEg
---------------------------------------------------------------------------------
-**Dependencies**
 Chasm Modding Toolkit is using:
-FREEGLUT: Freeglut, the Free OpenGL Utility Toolkit
-https://github.com/freeglut/freeglut
-
-GLEW: OpenGL Extension Wrangler Library
-https://glew.sourceforge.net
-
-STB: single-file public domain (or MIT licensed) libraries for C/C++
-https://github.com/nothings/stb
-
-AUTOIT: AutoIt3 BASIC-like scripting language designed for automating the Windows GUI and general scripting.
-https://www.autoitscript.com/site/
+- [freeglut](https://github.com/freeglut/freeglut)
+- [GLEW](https://glew.sourceforge.net)
+- [stb](https://github.com/nothings/stb)
+- [autoit](https://www.autoitscript.com/site/)
 --------------------------------------------------------------------------------
 FILES INCLUDED:
 23. Source code for all tools
