@@ -2,6 +2,13 @@
 
 Chasm Modding Toolkit Package is a comprehensive Windows package for customizing and modding game assets for both DOS and REMAKE version of Chasm the Rift. It supports CAR, OBJ, CEL and SPR formats for models, sprites, textures, animations and many more. You can extract, replace and preview textures, edit palettes, import/export audio, generate skyboxes and cube maps, and view assets with dedicated GUI or CLI tools.
 
+## Dependencies
+
+- [freeglut][4]
+- [GLEW][5]
+- [stb][6]
+- [autoit][7]
+
 ## Contents
 
 - 3oviewer
@@ -52,10 +59,6 @@ Chasm Modding Toolkit Package is a comprehensive Windows package for customizing
 - [Chasm Modding Toolkit Package file - Chasm: The Rift - ModDB][1]
 - [The Shadow Zone Discord Server][2]
 - [AwesomeChasm][3]
-- [freeglut][4]
-- [GLEW][5]
-- [stb][6]
-- [autoit][7]
 
 [1]: https://www.moddb.com/games/chasm-the-rift/downloads/chasm-modding-toolkit-package
 [2]: https://discord.gg/f85Cz4FaXP
