@@ -1,11 +1,6 @@
 # Chasm Modding Toolkit by SMR9000
 
-## Dependencies
-
-- [freeglut](https://github.com/freeglut/freeglut)
-- [GLEW](https://glew.sourceforge.net)
-- [stb](https://github.com/nothings/stb)
-- [autoit](https://www.autoitscript.com/site/)
+Chasm Modding Toolkit Package is a comprehensive Windows package for customizing and modding game assets for both DOS and REMAKE version of Chasm the Rift. It supports CAR, OBJ, CEL and SPR formats for models, sprites, textures, animations and many more. You can extract, replace and preview textures, edit palettes, import/export audio, generate skyboxes and cube maps, and view assets with dedicated GUI or CLI tools.
 
 ## Contents
 
@@ -51,3 +46,13 @@
 > - Recommended width 64px MAX, Recommended height 128px MAX, Recommended no. of frames 15 MAX. (game might crash if over 15)
 > - be sure to convert your sprite frames to chasm palette
 > - For transparency, use #fC00C8 in your texture (last index on chasm palette)
+
+## Links
+
+[^1]: [Chasm Modding Toolkit Package file - Chasm: The Rift - ModDB](https://www.moddb.com/games/chasm-the-rift/downloads/chasm-modding-toolkit-package)
+[^2]: [The Shadow Zone Chasm Modding Toolkit Packages](discord.gg/f85Cz4FaXP)
+[^3]: [freeglut](https://github.com/freeglut/freeglut)
+[^4]: [GLEW](https://glew.sourceforge.net)
+[^5]: [stb](https://github.com/nothings/stb)
+[^6]: [autoit](https://www.autoitscript.com/site/)
+
